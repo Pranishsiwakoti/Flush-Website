@@ -1,5 +1,7 @@
-alert("Fast flush it. Smells bad")
+alert("Fast flush it. Smells bad") --- Here you can change the alert ---
 
+Do not change!!! after these :|
+---------------------------------------------------------------------------------------------------------------
 const playSoundButton = document.getElementById("playSoundButton");
 const sound = document.getElementById("sound");
 
