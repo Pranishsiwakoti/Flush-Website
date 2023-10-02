@@ -1,0 +1,99 @@
+This project is made for beginners  ok? 😈🤬
+
+
+This website is made by html,css and java script. Its very easy project. You can try by yourself and my suggestion is make it by yourself.
+-This is beginner project ( Noob Noodles ) #easyforyou :)
+-I will provide a source code and make sure dont copy/paste just see and try to memorize and make by urself. IF any problem occurs i have gave down below source code
+-Best of luck!
+
+------------------------------  H  T  M  L  --------------------------------------------
+
+                                                                                                                                                                           
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your dirty pot</title>   ---  You can change whatever u want ---
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Flush is right here - - - >  </h1>  --- This is heading so u can write what ever u want ---
+    <div class="center-container">
+        <button id="playSoundButton">Flush it!</button>  --- You can change Button name --- 
+        <audio id="sound" src="put what ever mp3 you want.mp3"></audio>  --- You can change this mp3 --- But make sure to put the mp3 on ur folder
+    </div>
+      
+    <script src="script.js"></script>
+</body>
+</html>
+
+------------------------------  C  S  S  --------------------------------------------
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(0, 81, 255);
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span {
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ 
+#playSoundButton {                                                            
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-radius: 15px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+
+------------------------------  J A V A  S C R I P T --------------------------------------------
+
+
+alert("Fast flush it. Smells bad")  ---   Here you can write what ever u want   ---
+
+const playSoundButton = document.getElementById("playSoundButton");
+const sound = document.getElementById("sound");
+
+
+playSoundButton.addEventListener("click", function() {
+    if (sound.paused || sound.ended) {
+        sound.currentTime = 0; 
+    }
+
+    sound.play();
+});
+
+
+If any problem DM me in discord.
+
+
+                                                                                                                                  © By-Pranish siwakoti
